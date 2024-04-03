@@ -5,10 +5,12 @@
 #    url: service:mysql://192.168.0.109:3306/JAVA?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false
 #    driver-class-name: com.mysql.cj.service.Driver
 
-#日志
-
-
 server:
   port: 9090
+
+spring:
+  application:
+    name: cowFat97
+
 
 
